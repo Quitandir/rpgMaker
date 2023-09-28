@@ -1,0 +1,40 @@
+.boxTexto {
+    font-family: 'DotGothic16';
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1em;
+    background-color: white;
+    margin: 1em;
+    color: black;
+    width: 50%;
+    height: fit-content;
+    font-size: 20px;
+    
+}
+
+.boxTexto>a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.boxTexto:hover {
+    
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+    
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
