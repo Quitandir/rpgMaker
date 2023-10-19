@@ -62,6 +62,35 @@ import TheBakery2 from './pages/theBakery/Cena2';
 import TheBakery3 from './pages/theBakery/Cena3';
 import TheBakery4 from './pages/theBakery/Cena4';
 import TheBakery5 from './pages/theBakery/Cena5';
+
+import TechWorld1 from './pages/techWorld/Cena1';
+import TechWorld2 from './pages/techWorld/Cena2';
+import TechWorld3 from './pages/techWorld/Cena3';
+import TechWorld4 from './pages/techWorld/Cena4';
+import TechWorld5 from './pages/techWorld/Cena5';
+
+import Hospital1 from './pages/hospital/Cena1';
+import Hospital2 from './pages/hospital/Cena2';
+import Hospital3 from './pages/hospital/Cena3';
+import Hospital4 from './pages/hospital/Cena4';
+import Hospital5 from './pages/hospital/Cena5';
+import Hospital6 from './pages/hospital/Cena6';
+import Hospital7 from './pages/hospital/Cena7';
+
+import Strange1 from './pages/strangeForest/Cena1';
+import Strange2 from './pages/strangeForest/Cena2';
+import Strange3 from './pages/strangeForest/Cena3';
+import Strange4 from './pages/strangeForest/Cena4';
+import Strange5 from './pages/strangeForest/Cena5';
+import Strange6 from './pages/strangeForest/Cena6';
+import Strange7 from './pages/strangeForest/Cena7';
+import Strange8 from './pages/strangeForest/Cena8';
+import Strange9 from './pages/strangeForest/Cena9';
+import Strange10 from './pages/strangeForest/Cena10';
+import Strange11 from './pages/strangeForest/Cena11';
+import Strange12 from './pages/strangeForest/Cena12';
+import Strange13 from './pages/strangeForest/Cena13';
+
 import Title from './pages/title';
 
 function App() {
@@ -133,6 +162,34 @@ function App() {
         <Route path='/theBakery/3' element={<TheBakery3 />} />
         <Route path='/theBakery/4' element={<TheBakery4 />} />
         <Route path='/theBakery/5' element={<TheBakery5 />} />
+        
+        <Route path='/techWorld/1' element={<TechWorld1 />} />
+        <Route path='/techWorld/2' element={<TechWorld2 />} />
+        <Route path='/techWorld/3' element={<TechWorld3 />} />
+        <Route path='/techWorld/4' element={<TechWorld4 />} />
+        <Route path='/techWorld/5' element={<TechWorld5 />} />
+
+        <Route path='/hospital/1' element={<Hospital1 />} />
+        <Route path='/hospital/2' element={<Hospital2 />} />
+        <Route path='/hospital/3' element={<Hospital3 />} />
+        <Route path='/hospital/4' element={<Hospital4 />} />
+        <Route path='/hospital/5' element={<Hospital5 />} />
+        <Route path='/hospital/6' element={<Hospital6 />} />
+        <Route path='/hospital/7' element={<Hospital7 />} />
+
+        <Route path='/strange/1' element={<Strange1/>} />
+        <Route path='/strange/2' element={<Strange2/>} />
+        <Route path='/strange/3' element={<Strange3/>} />
+        <Route path='/strange/4' element={<Strange4/>} />
+        <Route path='/strange/5' element={<Strange5/>} />
+        <Route path='/strange/6' element={<Strange6/>} />
+        <Route path='/strange/7' element={<Strange7/>} />
+        <Route path='/strange/8' element={<Strange8/>} />
+        <Route path='/strange/9' element={<Strange9/>} />
+        <Route path='/strange/10' element={<Strange10/>} />
+        <Route path='/strange/11' element={<Strange11/>} />
+        <Route path='/strange/12' element={<Strange12/>} />
+        <Route path='/strange/13' element={<Strange13/>} />
 
       </Routes>
     </BrowserRouter>

@@ -14,6 +14,9 @@ export default function TelaInicial() {
             <Link to='/theDate/1' className={styles.title}>The Date</Link>   
             <Link to='/lostInTheForest/1' className={styles.title}>Lost In The Forest</Link>   
             <Link to='/theBakery/1' className={styles.title}>The Bakery</Link>   
+            <Link to='/techWorld/1' className={styles.title}>A Technological World</Link>   
+            <Link to='/hospital/1' className={styles.title}>The Hospital</Link>   
+            <Link to='/strange/1' className={styles.title}>Strange Forest</Link>   
         </div>
     )
 }
